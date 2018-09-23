@@ -1,0 +1,25 @@
+{
+    "name": "Rabbitify",
+    "version": "2.0",
+    "description": "Change all photos on web to rabbit photos",
+    "manifest_version": 2,
+    "icons": {
+        "16": "images/16rabbit.png",
+        "32": "images/32rabbit.png",
+        "48": "images/48rabbit.png",
+        "128": "images/128rabbit.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "images/16rabbit.png",
+            "32": "images/32rabbit.png",
+            "48": "images/48rabbit.png",
+            "128": "images/128rabbit.png"
+        }
+    },
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "background":{
+        "scripts": ["script.js"],
+        "persistent": false
+    }
+}
